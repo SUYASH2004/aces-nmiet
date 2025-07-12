@@ -71,48 +71,24 @@ const Index = () => {
         "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2F900af1b0b0f34bffb9870a9b24bb7d66?format=webp&width=800",
       ],
     },
+    
     {
       id: 4,
-      title: "Annual Tech Symposium",
-      date: "March 15, 2024",
+      title: "💡 TechIgnite 2025",
+      date: "July 10, 2025",
       type: "Conference",
-      attendees: "500+ attendees",
-      location: "Main Auditorium, Engineering Building",
-      duration: "Full Day (9 AM - 6 PM)",
+      attendees: "100+ ",
+      location: "Main Auditorium, B Wing NMIET",
+      duration: "4 hours",
       description:
-        "Our flagship event brings together over 500 students, faculty, and industry professionals for a day of learning and networking. The symposium features keynote speeches from tech industry leaders, technical paper presentations, poster sessions, and interactive workshops covering the latest trends in computer engineering.",
+        "💡 Tech Ignite 2025 – Welcoming the New Wave! Tech Ignite 2025 marked a heartfelt beginning as ACES warmly welcomed the new SE batch into the fold. The event began with a serene Saraswati Pujan, followed by inspiring words from our esteemed faculty. 🌼 We also celebrated our dedicated mentors whose support continues to shape the journey of every student. The event was a perfect blend of tradition, motivation, and unity—setting the tone for an exciting year ahead with the ACES family! 📚✨",
       images: [
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&h=300&fit=crop",
-      ],
-    },
-    {
-      id: 5,
-      title: "AI/ML Workshop Series",
-      date: "Every Saturday",
-      type: "Workshop",
-      attendees: "50+ weekly",
-      location: "Room 301, CS Building",
-      duration: "3 hours",
-      description:
-        "Weekly hands-on workshops covering machine learning, deep learning, and artificial intelligence applications. Students gain practical experience with real-world datasets.",
-      images: [
-        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=300&fit=crop",
-      ],
-    },
-    {
-      id: 6,
-      title: "Industry Connect",
-      date: "Monthly",
-      type: "Networking",
-      attendees: "100+ professionals",
-      location: "Various locations",
-      duration: "2 hours",
-      description:
-        "Regular meetups with industry professionals sharing insights about career paths and emerging technologies in the field.",
-      images: [
-        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=300&fit=crop",
+         "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2Ff568d33bc72b42ceb8f75f739cede2a2?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2Fd81efbc896834206a546e7a44b147f03?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2Fc53fcc22f9b14cd782b05a7dbe392b08?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2Fe8b86d79812f4cd3b8c649f174ca7cb3?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2Fa1dfb3e2a3634841a42c0d563ace2fe2?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fae7643b69d90447eb4df56524a3ace8b%2F19d87935fa0e4a9b9be7a46cef2a4eec?format=webp&width=800",
       ],
     },
   ];
@@ -133,44 +109,39 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
-        <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/50"></div>
-        <div className="relative z-10 text-center max-w-4xl mx-auto">
-          <div className="mb-8">
-            <div className="inline-flex items-center gap-3 mb-6">
-              <Rocket className="w-12 h-12 text-primary" />
-              <h1 className="text-6xl md:text-8xl font-bold text-primary">
-                ACES
-              </h1>
-              <Trophy className="w-12 h-12 text-primary" />
-            </div>
-          </div>
-          <p className="text-xl md:text-2xl text-foreground/90 mb-4 font-semibold">
-            Association of Computer Engineering Students
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            By the Students, For the Students
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/about">
-              <Button
-                size="lg"
-                className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-              >
-                <Rocket className="w-5 h-5 mr-2" />
-                Learn More
-              </Button>
-            </a>
-            <Button
-              variant="outline"
-              size="lg"
-              className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary/10"
-            >
-              <Users className="w-5 h-5 mr-2" />
-              Join Us
-            </Button>
-          </div>
-        </div>
-      </section>
+  <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/50"></div>
+  <div className="relative z-10 text-center max-w-4xl mx-auto">
+    <div className="mb-8">
+      <div className="inline-flex items-center gap-3 mb-6">
+        <Rocket className="w-12 h-12 text-primary" />
+        <h1 className="text-6xl md:text-8xl font-bold text-primary">ACES</h1>
+        <Trophy className="w-12 h-12 text-primary" />
+      </div>
+    </div>
+    <p className="text-xl md:text-2xl text-foreground/90 mb-4 font-semibold">
+      Association of Computer Engineering Students
+    </p>
+    <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+      By the Students, For the Students
+    </p>
+    <div className="flex justify-center">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScbEQA2rpHeM7cJktcdMF6oqcjz8elE9NYzkiVrBsggcJT9cw/viewform?usp=header"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button
+          variant="outline"
+          size="lg"
+          className="text-lg px-8 py-6 border-primary text-primary hover:bg-primary/10"
+        >
+          <Users className="w-5 h-5 mr-2" />
+          Join Us
+        </Button>
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* Enhanced About Section */}
       <section className="py-20 px-6 bg-gradient-to-b from-background to-muted/20">
@@ -184,7 +155,7 @@ const Index = () => {
               <Brain className="w-8 h-8 text-primary" />
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We are a dynamic community of computer engineering students
+              We are a dynamic community also known as Black Commandos of Computer Engineering,
               dedicated to fostering innovation, technical excellence, and
               professional growth at NMIET.
             </p>
@@ -201,9 +172,8 @@ const Index = () => {
                   Our Mission
                 </h3>
                 <p className="text-muted-foreground leading-relaxed text-center">
-                  To create a platform where computer engineering students can
-                  collaborate, innovate, and develop cutting-edge solutions that
-                  shape the future of technology.
+                  To organize technical and non-technical events that foster curiosity, creativity, and practical skills among students.To bridge the gap between classroom knowledge and real-world applications through workshops, competitions, and industry interactions.
+
                 </p>
               </CardContent>
             </Card>
@@ -217,9 +187,7 @@ const Index = () => {
                   Our Vision
                 </h3>
                 <p className="text-muted-foreground leading-relaxed text-center">
-                  To be the leading student organization that bridges the gap
-                  between academic learning and industry requirements, producing
-                  skilled professionals ready for tomorrow's challenges.
+                  To empower computer engineering students through continuous learning, innovation, and collaboration, creating a dynamic platform that nurtures technical excellence, leadership, and holistic development.
                 </p>
               </CardContent>
             </Card>
