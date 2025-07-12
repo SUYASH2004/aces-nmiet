@@ -217,7 +217,7 @@ const Index = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-5xl font-bold text-primary mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                  500+
+                  35+
                 </div>
                 <div className="text-muted-foreground font-medium">
                   Active Members
@@ -225,23 +225,16 @@ const Index = () => {
               </div>
               <div className="text-center">
                 <div className="text-5xl font-bold text-primary mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                  50+
+                  5+
                 </div>
                 <div className="text-muted-foreground font-medium">
                   Events Organized
                 </div>
               </div>
+              
               <div className="text-center">
                 <div className="text-5xl font-bold text-primary mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                  25+
-                </div>
-                <div className="text-muted-foreground font-medium">
-                  Projects Completed
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl font-bold text-primary mb-2 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                  5
+                  4+
                 </div>
                 <div className="text-muted-foreground font-medium">
                   Years of Excellence
